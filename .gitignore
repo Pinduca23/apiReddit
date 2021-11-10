@@ -1,0 +1,7 @@
+# Python
+.venv
+
+
+# Poetry
+poetry_cache/
+

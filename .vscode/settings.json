@@ -1,0 +1,8 @@
+{
+    "python.sortImports.args": ["-l", "120"],
+    "[python]": {
+      "editor.codeActionsOnSave": {
+          "source.organizeImports": true
+      }
+  }
+  }
