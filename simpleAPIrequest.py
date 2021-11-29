@@ -3,12 +3,12 @@ from requests.models import Response
 import pandas as pd
 from pandas.io.parsers import read_csv
 # Autenticação de uso da API do reddit
-auth = requests.auth.HTTPBasicAuth('CtaOCXWP2juVX49NnU7uag', 'Kxu1zfNAf42Ss0jApRQ1QbiR6O9xrQ')
+auth = requests.auth.HTTPBasicAuth('', '')
 
 # Login e senha do usuário do reddit
 data = {'grant_type': 'password',
-        'username': 'pinducat',
-        'password': 'Nnwvm7e5M3i5CCC6sYMe'}
+        'username': '',
+        'password': ''}
 
 # Breve descrição do "APP"
 headers = {'User-Agent': 'pinduBot 0.1'}
